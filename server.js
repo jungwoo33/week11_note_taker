@@ -108,6 +108,7 @@ app.post('/api/notes',(req,res)=>{
          // and that the new resource has been created.
          console.log(response);
          res.status(201).json(response);
+
       })
    }
 });

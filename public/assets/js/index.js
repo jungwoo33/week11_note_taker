@@ -71,10 +71,22 @@ const handleNoteSave = () => {
     title: noteTitle.value,
     text: noteText.value,
   };
+
+  // jw, this is the original
   saveNote(newNote).then(() => {
+    data.json().then
     getAndRenderNotes();
     renderActiveNote();
   });
+
+  // jw, this is the updated, but it still not working...
+  /*
+  saveNote(newNote).then((data) => data.json()).then((note)=>{  
+    console.log(note);
+    getAndRenderNotes();
+    renderActiveNote();
+  });
+  */
 };
 
 // Delete the clicked note
