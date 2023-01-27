@@ -8,6 +8,7 @@ const path = require('path');
 //const { randomUUID } = require('crypto');
 
 // implement middleware for the parsing of JSON data
+// Note: The "json" and "urlencoded" middleware are both part of "bodyParser"
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
@@ -29,7 +30,9 @@ app.get('/notes',(req,res)=>{
 // create a GET route for '/api/notes' that will return the content of our json file
 app.get('/api/notes',(req,res)=>{
    // here, res.json() convert the object to a JSON string using the JSON.stringify() method, i.e., object -> string
-   res.json(db);
+   fs.readFile('./db/db.json','utf8',(error,data)=>{
+      res.json(JSON.parse(data));
+   });
 });
 
 // create a POST route for '/api/notes' that will add the user input to the saved db.json and show the updated db.json to the client
@@ -103,7 +106,7 @@ app.post('/api/notes',(req,res)=>{
             status: 'success',
             body: new_data,
          }
-
+         
          // The 201 status code is a response from the server that indicates the request was successfully processed 
          // and that the new resource has been created.
          console.log(response);

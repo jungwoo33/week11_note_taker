@@ -73,11 +73,13 @@ const handleNoteSave = () => {
   };
 
   // jw, this is the original
-  saveNote(newNote).then(() => {
-    data.json().then
+  saveNote(newNote).then((data) => data.json()).then((allNotes)=>{
+    console.log(allNotes);
     getAndRenderNotes();
     renderActiveNote();
-  });
+  })
+  
+  
 
   // jw, this is the updated, but it still not working...
   /*
