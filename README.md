@@ -59,14 +59,14 @@ This project has the following directory structure:
 
 ## 7. Application results:
 [GitHub:] https://github.com/jungwoo33/week11_note_taker<br>
-View walk through video here - [Screencastify](https://drive.google.com/file/d/19vOnfBMKKBQW6gee96CooDKttMgJrfLZ/view)<br>
+View walk through video here - [Screencastify](https://drive.google.com/file/d/1Y3XqvjH1eJTEmLOYxK30jgEYNUWAE7QV/view)<br>
 or the original video file is in `./Assets/WEEK11_Note_Taker.avi`<br>
 <img src="./Assets/localhost_3001.png">
 <img src="./Assets/localhost_3001_notes.png">
 
 ## 8. Questions?:
-If you have any questions, feel free to contact me via information below:\
-[GitHub:] https://github.com/jungwoo33\
+If you have any questions, feel free to contact me via information below:<br>
+[GitHub:] https://github.com/jungwoo33<br>
 [Email:] jungwoo33@gmail.com
 
 - - -
