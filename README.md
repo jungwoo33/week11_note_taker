@@ -61,8 +61,8 @@ This project has the following directory structure:
 [GitHub:] https://github.com/jungwoo33/week11_note_taker<br>
 View walk through video here - [Screencastify](https://drive.google.com/file/d/1Y3XqvjH1eJTEmLOYxK30jgEYNUWAE7QV/view)<br>
 or the original video file is in `./Assets/WEEK11_Note_Taker.avi`<br>
-<img src="./Assets/localhost_3001.png">
-<img src="./Assets/localhost_3001_notes.png">
+The final application is deployed in Heroku: https://enigmatic-cliffs-38138.herokuapp.com/
+[![A video thumbnail shows the command-line employee management application with a play button overlaying the view.](./Assets/localhost_3001.png)](https://drive.google.com/file/d/1Y3XqvjH1eJTEmLOYxK30jgEYNUWAE7QV/view)
 
 ## 8. Questions?:
 If you have any questions, feel free to contact me via information below:<br>
